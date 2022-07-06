@@ -1,0 +1,32 @@
+person:
+  name: hello${random.uuid}
+  age: ${random.int}
+  boss: false
+  birth: 2022/05/13
+  maps: {k1: v1,k2: v2}
+  lists:
+    - lisi
+    - zhangsan
+  dog:
+    name: 小狗${person.name}
+    age: 12
+server:
+  port: 8081
+  # 项目的访问路径
+  servlet:
+    context-path: /boot02
+#spring:
+#  profiles:
+#    active: dev
+---
+# 文档块2
+#server:
+#  port: 8082
+#spring:
+#  profiles: dev
+---
+# 文档块3
+#server:
+#  port: 8083
+#spring:
+#  profiles: prod

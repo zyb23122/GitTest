@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.hy.springbootdemoquick01.bean.Person",
+      "sourceType": "com.hy.springbootdemoquick01.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.hy.springbootdemoquick01.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.hy.springbootdemoquick01.bean.Person"
+    },
+    {
+      "name": "person.boss",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.hy.springbootdemoquick01.bean.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.hy.springbootdemoquick01.bean.Person"
+    }
+  ],
+  "hints": []
+}
